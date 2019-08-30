@@ -1,4 +1,4 @@
-name: CI
+name: Notify changes
 
 on: 
   push:
@@ -9,4 +9,4 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: ./action
+    - uses: actions/action

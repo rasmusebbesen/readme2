@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Docker action
-        using: actions/notify@master
+        using: rasmusebbesen/action-notify@master

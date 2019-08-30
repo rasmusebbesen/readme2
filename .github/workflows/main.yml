@@ -9,4 +9,4 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/action
+    - uses: {rasmusebbesen}/{readme2}/actions/notify/action.yml

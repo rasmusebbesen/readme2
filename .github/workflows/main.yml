@@ -6,7 +6,7 @@ on:
       master
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  notify_job:
     steps:
-    - uses: actions/notify/action@master
+      - name: Docker action
+        uses: actions/notify/action@master

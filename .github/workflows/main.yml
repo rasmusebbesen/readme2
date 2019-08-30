@@ -11,4 +11,7 @@ jobs:
     steps:
       - name: Docker action
         uses: rasmusebbesen/action-notify@master
+        with:
+          dev1: Steffen
+          dev2: Rasmus 
 

@@ -12,5 +12,6 @@ jobs:
       - name: Docker action
         uses: rasmusebbesen/action-notify@master
         with:
-          trigger: ${{ github.repository }} 
+          trigger: ${{ github.repository }}
+          circle_token: ${{ secrets.CIRCLE_TOKEN }}
 
